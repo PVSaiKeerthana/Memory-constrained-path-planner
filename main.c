@@ -99,8 +99,6 @@ void print_path(uint8_t path_length) {
 int main() {
     printf("=== RISC-V Path Planning Demo ===\n");
     build_graph();
-    
-    // HARDCODED COORDINATES - Change these for different test cases
     uint8_t start = 4;   // Change this value (0-31)
     uint8_t goal = 25;   // Change this value (0-31)
     
