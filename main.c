@@ -32,7 +32,7 @@ uint8_t is_visited(uint8_t node) {
 }
 
 void clear_visited() {
-    *((uint32_t*)visited_bits) = 0;  // Fixed: Added missing * and cast
+    *((uint32_t*)visited_bits) = 0; 
 }
 
 // Build graph from edge list
