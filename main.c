@@ -18,7 +18,6 @@ const uint8_t edges[][4] = {
     {23,24,SOUTH,NORTH}, {23,30,WEST,EAST}, {24,25,EAST,WEST}, {26,27,NORTH,SOUTH}, {26,28,NORTH,SOUTH},
     {28,29,EAST,WEST}, {28,30,NORTH, SOUTH}, {30,31,SOUTH,NORTH}   
 };
-
 // Data memory arrays
 uint8_t adj_list[no_of_nodes][max_conn];       // 128 bytes
 uint8_t adj_dir[no_of_nodes];                  // 32 bytes 
