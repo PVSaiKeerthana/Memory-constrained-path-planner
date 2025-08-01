@@ -60,7 +60,6 @@ uint8_t get_parent(uint8_t node) {
     uint32_t val = parent_packed[byteidx] | (parent_packed[byteidx+1] << 8) | (parent_packed[byteidx+2] << 16);
     return (val >> bitoff) & 0x3F;
 }
-
 // Switch reading
 uint8_t read_switches(const char* prompt, uintptr_t addr, uint8_t index) {
     printf("%s", prompt);
